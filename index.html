@@ -1,7 +1,3 @@
-<?php
-    session_start();
-?>
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -13,21 +9,8 @@
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"/>
             <script src="filereader.js"></script>
             <h1 class="title"> NFL Predictions </h1>
-            <?php if(isset($_SESSION["useremail"])) { ?>
-
-                <h3> Your account: <?php echo $_SESSION["useremail"]; ?> </h3>
-
-            <?php } else { ?>
-
-                <h3> Not logged in </h3>
-
-            <?php } ?>
             <br />
             <div class="container">
-
-                <?php
-                    if(isset($_SESSION["useremail"])) {
-                ?>
                     
                     <div class="four columns">
                         <a class="buttons" href="league.php"> Real League </a>
@@ -41,25 +24,18 @@
                         <a class="buttons" href="includes/logout.inc.php"> Logout </a>
                     </div>
                         
-                <?php
-                    } else {
-                ?>
 
                     <div class="four columns">
                         <a class="buttons" href="league.php"> Real League </a>
                     </div>
 
                     <div class="four columns">
-                        <a class="buttons" href="register_page.php"> Sign up </a>
+                        <a class="buttons" href="register_page.html"> Sign up </a>
                     </div>
 
                     <div class="four columns">
-                        <a class="buttons" href="login_page.php"> Login </a>
+                        <a class="buttons" href="login_page.html"> Login </a>
                     </div>
-
-                <?php
-                    }
-                ?>
             </div>
         </div>
     </head>
