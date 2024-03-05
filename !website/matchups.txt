@@ -1,0 +1,15 @@
+1
+jaguars@colts,lions@chiefs,cardinals@commanders.
+bengals@browns,niners@steelers,panthers@falcons.
+texans@ravens,titans@saints,buccaneers@vikings.
+raiders@broncos,eagles@patriots,packers@bears.
+dolphins@chargers,-@-,rams@seahawks.
+bills@jets,-@-,cowboys@giants?
+2
+chiefs@jaguars,jets@cowboys,vikings@eagles.
+ravens@bengals,commanders@broncos,bears@buccaneers.
+raiders@bills,-@-,packers@falcons.
+chargers@titans,-@-,seahawks@lions.
+colts@texans,-@-,niners@rams.
+dolphins@patriots,-@-,giants@cardinals.
+browns@steelers,-@-,saints@panthers?
