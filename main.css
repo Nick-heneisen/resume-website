@@ -1,0 +1,121 @@
+.indent {
+  margin-left: 240px;
+  margin-right: 240px;
+
+}
+
+.main_buttons {
+  background: #C7E2FF;
+  background-image: -webkit-linear-gradient(top, #C7E2FF, #5B9BFF);
+  background-image: -moz-linear-gradient(top, #C7E2FF, #5B9BFF);
+  background-image: -ms-linear-gradient(top, #C7E2FF, #5B9BFF);
+  background-image: -o-linear-gradient(top, #C7E2FF, #5B9BFF);
+  background-image: -webkit-gradient(to bottom, #C7E2FF, #5B9BFF);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  height: 18px;
+  line-height: 18px;
+  color: #000000;
+  font-family: Courier New;
+  width: 159px;
+  font-size: 40px;
+  font-weight: 100;
+  padding: 20px;
+  -webkit-box-shadow: 1px 1px 20px -6px #000000;
+  -moz-box-shadow: 1px 1px 20px -6px #000000;
+  box-shadow: 1px 1px 20px -6px #000000;
+  text-shadow: 0 1px 20px #000000;
+  border: solid #000000 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.main_buttons:hover {
+  border: solid #000000 1px;
+  color: #000000;
+  background: #5B9BFF;
+  background-image: -webkit-linear-gradient(top, #5B9BFF, #C7E2FF);
+  background-image: -moz-linear-gradient(top, #5B9BFF, #C7E2FF);
+  background-image: -ms-linear-gradient(top, #5B9BFF, #C7E2FF);
+  background-image: -o-linear-gradient(top, #5B9BFF, #C7E2FF);
+  background-image: -webkit-gradient(to bottom, #5B9BFF, #C7E2FF);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.buttons {
+  border-style: solid;
+  border-width: 5px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 25px;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 700;
+  margin-left: 5px;
+
+}
+
+body {
+  background-color: lightgrey;
+
+}
+
+p {
+  font-size: 20;
+}
+
+.twitter {
+  color: #1DA1F2;
+  background-color: #1DA1F2;
+  border-color: #1DA1F2;
+  text-decoration: none;
+
+}
+
+.instagram {
+  color: #C13584;
+  background-color: #C13584;
+  border-color: #C13584;
+  text-decoration: none;
+
+}
+
+.linkedin {
+  color: #35acc1;
+  background-color: #35acc1;
+  border-color: #35acc1;
+  text-decoration: none;
+
+}
+
+.footer {
+  font-size: 10px;
+
+}
+
+.reference {
+    border-style: none;
+    border-width: 5px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: none;
+    background-color: white;
+
+  }
+
+.resume {
+    height: 750px;
+    width: 600px;
+}
