@@ -1,84 +1,78 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        
-        <div class="centered"> 
-
-            <title> NFL Predictions </title>
-            <link rel="stylesheet" href="style.css">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"/>
-            <script src="filereader.js"></script>
-            <h1 class="title"> NFL Predictions </h1>
-            <br />
-            <div class="container">
-                    
-                    <div class="four columns">
-                        <a class="buttons" href="league.php"> Real League </a>
-                    </div>
-
-                    <div class="four columns">
-                        <a class="buttons" href="fantasy.php"> Your League </a>
-                    </div>
-                        
-                    <div class="four columns">
-                        <a class="buttons" href="register_page.html"> Sign up </a>
-                    </div>
-
-                    <div class="four columns">
-                        <a class="buttons" href="login_page.html"> Login </a>
-                    </div>
+<html>
+  <head>
+      <title> Main Page </title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"/>
+      <link rel="stylesheet" href="main.css"/>
+      <center>
+        <br />
+          <h1> Nick Heneisen </h1>
+        <br />
+        <div class="container">
+            <div class="four columns">
+              <center>
+                <a class="main_buttons" href="index.html"> Home </a>
+              </center>
+            </div>
+            <div class="four columns">
+              <center>
+                <a class="main_buttons" href="resume.html"> Resume </a>
+              </center>
+            </div>
+            <div class="four columns">
+              <center>
+                <a class="main_buttons" href="games.html"> Games </a>
+              </center>
             </div>
         </div>
-    </head>
-        
-    <body class="newcolor" onload="weekReader()">
-        <hr />
+      </center>
+  </head>
 
-        <div class="centered">
-            <h3 class="headerline"> Make your predictions! </h3>
-
-            <label for="weeks"> Select week: </label>
-            <select name="weeks" id="weeks" onchange="weekReader()">
-                    <option value="1">Week 1</option>
-                    <option value="2">Week 2</option>
-                    <option value="3">Week 3</option>
-                    <option value="4">Week 4</option>
-                    <option value="5">Week 5</option>
-                    <option value="6">Week 6</option>
-                    <option value="7">Week 7</option>
-                    <option value="8">Week 8</option>
-                    <option value="9">Week 9</option>
-                    <option value="10">Week 10</option>
-                    <option value="11">Week 11</option>
-                    <option value="12">Week 12</option>
-                    <option value="13">Week 13</option>
-                    <option value="14">Week 14</option>
-                    <option value="15">Week 15</option>
-                    <option value="16">Week 16</option>
-                    <option value="17">Week 17</option>
-                    <option value="18">Week 18</option>
-            </select>
-        </div>
+  <body>
+      <hr />
+    <div class="indent">
+      <h2> Introduction </h2>
+        <p>
+          The purpose of this website is to showcase my abilities as a computer programmer and showcase projects that I have worked on.
+        </p>
         <br />
-        <div class="predicChart" id="startReq">
-            <!-------------------------------------------------------------------->
-            <div class="row">
-                <div class="four columns centered">
-                    <h3> <u> AFC </u> </h3>
-                </div>
 
-                <div class="four columns centered">
-                    <h3> <u> Cross-conference </u> </h3>
-                </div>
+       <h2> About Me </h2>
+       <img src="images/nick.jpeg" width="300px"/>
+       <img src="images/grad.webp" width="300px"/>
+       <br />
+       <br />
+        <p>
+          My name is Nick Heneisen, and I'm an Indiana University graduate with a Bachelors degree in Computer Science.
+          I majored in Computer Science with a specialization in Software Engineering, and minored in Game Design.
+          <br />
+          <br />
+          I've been in love with computers since I was a little kid. I've been blessed with knowing that was what I wanted to do
+          with my life since then.
+        </p>
 
-                <div class="four columns centered">
-                    <h3> <u> NFC </u> </h3>
-                </div>
-            </div>
-        </div>
-        <div class="centered">
-            <button type="submit" id="result">Submit</button>
-        </div>
         <br />
-    </body>
+          <h4> Social Media </h4>
+        <br />
+          <a href="https://twitter.com/NickHeneisen" class="twitter buttons" style="color:white"> Twitter / X </a>
+        <br />
+        <br />
+        <br />
+          <a href="https://www.instagram.com/nick_heneisen/" class="instagram buttons" style="color:white"> Instagram </a>
+        <br />
+        <br />
+        <br />
+          <a href="https://www.linkedin.com/in/nicholas-heneisen/"  class="linkedin buttons" style="color:white"> LinkedIn </a>
+          <hr />
+        <p class="footer">
+          I certify that the content included in this
+          portfolio/website is my own original work (or is cited accurately)
+          and accurate to my knowledge. Work included which was conducted
+          as part of a team or other group is indicated and attributed
+          as such the other team members are named and a true description
+          of my role in the project is included. Nicholas Heneisen
+        </p>
+        <p class="footer" > layout by <a class="null" style="border:none" href="http://getskeleton.com">Skeleton</a> </p>
+      </div>
+  </body>
+
 </html>
